@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "EB Garamond", serif;
+  color: #000000;
+}
+
+div.section {
+  clear: both;
+  width: 100%;
+}
+
+div.title {
+  border-top: 5px solid #9A9623;
+  border-bottom: 5px solid #9A9623;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../images/logo.png);
+  height: 100%;
+}
