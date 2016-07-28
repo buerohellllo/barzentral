@@ -1,11 +1,13 @@
 div.disappear {
   background-image: url(../images/mobile/disappear-here.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 div.wc {
   background-image: url(../images/mobile/wc.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 div.detail-backboard {
@@ -34,15 +36,38 @@ div.box {
   top: 50vh;
 }
 
+div.collage {
+  height: 100vh;
+}
+
+div.detail-backboard, div.outside, div.detail-shelves, div.detail-lager {
+  border-top: 0.5vh solid #000000;
+  border-bottom: 0.5vh solid #000000;
+  border-left: 0.5vw solid #000000;
+  border-right: 0.5vw solid #000000;
+  height: 49vh;
+}
+
+div.disappear, div.wc {
+  background-repeat: no-repeat;
+  border-bottom: 5px solid #000000;
+  height: 100vh;
+}
+
 div.logo {
   background-image: url(../images/mobile/logo-white.png);
   width: 18vw;
   height: 40vh;
   float: left;
+  background-position: top center;
 }
 
 div.info {
   padding: 5px;
   height: auto;
   float: left;
+}
+
+div.info p {
+  font-size: 3.25vh;
 }
