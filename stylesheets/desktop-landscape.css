@@ -3,11 +3,6 @@ div.disappear {
   background-size: cover;
 }
 
-div.bar {
-  background-image: url(../images/desktop/bar.jpg);
-  background-size: cover;
-}
-
 div.wc {
   background-image: url(../images/desktop/wc.jpg);
   background-size: cover;

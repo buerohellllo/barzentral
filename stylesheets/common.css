@@ -37,7 +37,7 @@ div.detail-backboard, div.outside, div.detail-shelves, div.detail-lager {
   height: 49vh;
 }
 
-div.disappear, div.bar, div.wc {
+div.disappear, div.wc {
   background-position: center center;
   background-repeat: no-repeat;
   border-bottom: 5px solid #000000;

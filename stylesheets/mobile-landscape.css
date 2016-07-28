@@ -1,7 +1,48 @@
-div.title {
-  background-size: 20%;
+div.disappear {
+  background-image: url(../images/mobile/disappear-here.jpg);
+  background-size: cover;
 }
 
-div.map {
-  height: 100%;
+div.wc {
+  background-image: url(../images/mobile/wc.jpg);
+  background-size: cover;
+}
+
+div.detail-backboard {
+  background-image: url(../images/mobile/detail-backboard.jpg);
+  background-size: cover;
+}
+
+div.outside {
+  background-image: url(../images/mobile/outside.jpg);
+  background-size: cover;
+}
+
+div.detail-shelves {
+  background-image: url(../images/mobile/detail-shelves.jpg);
+  background-size: cover;
+}
+
+div.detail-lager {
+  background-image: url(../images/mobile/detail-lager.jpg);
+  background-size: cover;
+}
+
+div.box {
+  position: absolute;
+  left: 5vw;
+  top: 50vh;
+}
+
+div.logo {
+  background-image: url(../images/mobile/logo-white.png);
+  width: 18vw;
+  height: 40vh;
+  float: left;
+}
+
+div.info {
+  padding: 5px;
+  height: auto;
+  float: left;
 }
