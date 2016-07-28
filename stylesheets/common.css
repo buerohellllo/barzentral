@@ -9,37 +9,75 @@ html, body {
 }
 
 body {
-  background-color: #FFFFFF;
-  font-family: "EB Garamond", serif;
+  background-color: #000000;
+  font-family: "Times", serif;
 }
 
 div.section {
   clear: both;
-  width: 100%;
+  width: 100vw;
 }
 
-div.title {
-  border-top: 5px solid #9A9623;
-  border-bottom: 5px solid #9A9623;
+div.mini-section {
+  float: left;
+  width: 49vw;
+}
+
+div.collage {
+  height: 100vh;
+}
+
+div.detail-backboard, div.outside, div.detail-shelves, div.detail-lager {
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/logo.png);
-  height: 100%;
+  border-top: 0.5vh solid #000000;
+  border-bottom: 0.5vh solid #000000;
+  border-left: 0.5vw solid #000000;
+  border-right: 0.5vw solid #000000;
+  height: 49vh;
+}
+
+div.disappear, div.bar, div.wc {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-bottom: 5px solid #000000;
+  height: 100vh;
+}
+
+div.wc, div.outside {
+  cursor: pointer;
+}
+
+div.logo {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 div.info {
-  background-color: #9A9623;
-  color: #FFFFFF;
-  font-size: 3.5vw;
-  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 2px solid;
+  border-radius: 15px;
 }
 
 div.info p {
-  width: 100%;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: center;
+  color: rgb(220, 220, 220);
+  font-size: 1.90vh;
+  font-style: italic;
+  padding: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a {
+  color: rgb(100, 149, 237);
+}
+
+a:hover {
+  color: rgb(100, 149, 237);
+}
+
+a:visited {
+  color: rgb(100, 149, 237);
 }
